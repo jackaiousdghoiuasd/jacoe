@@ -6,4 +6,4 @@ workflows:
     scripts:
       - name: Execute CLI with config
         script: |
-          node ./cli.cjs --config ./config.json
+          node $CM_BUILD_DIR/cli.cjs --config $CM_BUILD_DIR/config.json
